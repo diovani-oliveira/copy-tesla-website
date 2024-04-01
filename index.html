@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/general.css">
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <style>
         header{
             position: absolute;
@@ -916,6 +918,71 @@
         .main-container5 .box img{
             width: 100%;
         }
+
+        .swiper{
+            max-height: 100vh;
+        }
+        .swiper .swiper-slide .box{
+            position: absolute;
+            bottom: 280px;
+            left: 50px;
+            color: #F2F2F2;
+            width: 650px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .swiper .swiper-slide .box .balls{
+            display: flex;
+            margin-bottom: 12px;
+        }
+        .swiper .swiper-slide .box .balls .ball{
+            width: 12px;
+            height: 12px;
+            background: #a4a19d;
+            border-radius: 1000px;
+            margin: 4px;
+        }
+        .swiper .swiper-slide .box .balls #active{
+            background: #F2F2F2;
+        }
+        .swiper .swiper-slide .box h1{
+            font-weight: 500;
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+        .swiper .swiper-slide .box span{
+            position: relative;
+            top: 15px;
+        }
+        .swiper .swiper-slide .box .buttons{
+            display: flex;
+            margin-top: 60px;
+        }
+        .swiper .swiper-slide .box .buttons .button1{
+            width: 200px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #F2F2F2;
+            color: #171a20;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .swiper .swiper-slide .box .buttons .button2{
+            width: 200px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #222222;
+            color: #F2F2F2;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 500;
+            margin-left: 20px;
+        }
     </style>
 </head>
 <body>
@@ -935,6 +1002,76 @@
             <a href="#"><i class='bx bx-user-circle' ></i></a>
         </div>
     </header>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <video  muted loop autoplay src="./videos/5000freesuperchargingmiles.webm"></video>
+                <div class="box">
+                    <div class="balls">
+                        <div class="ball" id="active"></div>
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                    </div>
+                    <h1>Model Y Starting at $36,490 After Federal Tax Credit</h1>
+                    <p>Eligible buyers qualify for a $7,500 federal tax credit. Applied at time of Model Y delivery. See Details</p><span>Prices will increase by $1,000 for all Model Y trims on April 1.</span>
+                    <div class="buttons">
+                        <a href="#"><div class="button1">Shop Available</div></a>
+                        <a href="#"><div class="button2">Demo Drive</div></a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <video  muted loop autoplay src="./videos/findtheteslaforyou.webm"></video>
+                <div class="box">
+                    <div class="balls">
+                        <div class="ball"></div>
+                        <div class="ball" id="active"></div>
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                    </div>
+                    <h1>5,000 Free Supercharging Miles</h1>
+                    <p>Take delivery of a new Model S, Model X or Model Y by March 31 and receive 5,000 free Supercharging miles for cash or finance purchases. See Terms</p>
+                    <div class="buttons">
+                        <a href="#"><div class="button1">Shop Available</div></a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <video  muted loop autoplay src="./videos/modelystarting.webm"></video>
+                <div class="box">
+                    <div class="balls">
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                        <div class="ball" id="active"></div>
+                        <div class="ball"></div>
+                    </div>
+                    <h1>New Model 3</h1>
+                    <p>Reengineered from the ground up.<br> Be the first to get behind the wheel. Demo drive now.</p>
+                    <div class="buttons">
+                        <a href="#"><div class="button1">Demo Drive</div></a>
+                        <a href="#"><div class="button2">Custom Order</div></a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <video  muted loop autoplay src="./videos/newmodel3.webm"></video>
+                <div class="box">
+                    <div class="balls">
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                        <div class="ball"></div>
+                        <div class="ball" id="active"></div>
+                    </div>
+                    <h1>Find the Tesla for You</h1>
+                    <p>Discover which model is best for you based on your budget, driving habits<br> and lifestyle.</p>
+                    <div class="buttons">
+                        <a href="#"><div class="button1">Help Me Choose</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="main-container1" style="top: -80%;" onmouseleave="menuout1()">
         <div class="container1">
             <div class="container-box">
@@ -1407,6 +1544,15 @@
             logo1.style.display = 'block';
             logo2.style.display = 'none';
         }
+    
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            spaceBetween: 10,
+            autoplay: true,
+            autoplay: {
+                delay: 7000,
+            },
+        });
     </script>
 </body>
 </html>
