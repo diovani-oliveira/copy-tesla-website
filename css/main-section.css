@@ -1,0 +1,64 @@
+.swiper{
+    max-height: 100vh;
+}
+.swiper .swiper-slide .box{
+    position: absolute;
+    bottom: 280px;
+    left: 50px;
+    color: #F2F2F2;
+    width: 650px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.swiper .swiper-slide .box .balls{
+    display: flex;
+    margin-bottom: 12px;
+}
+.swiper .swiper-slide .box .balls .ball{
+    width: 12px;
+    height: 12px;
+    background: #a4a19d;
+    border-radius: 1000px;
+    margin: 4px;
+}
+.swiper .swiper-slide .box .balls #active{
+    background: #F2F2F2;
+}
+.swiper .swiper-slide .box h1{
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.swiper .swiper-slide .box span{
+    position: relative;
+    top: 15px;
+}
+.swiper .swiper-slide .box .buttons{
+    display: flex;
+    margin-top: 60px;
+}
+.swiper .swiper-slide .box .buttons .button1{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F2F2F2;
+    color: #171a20;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.swiper .swiper-slide .box .buttons .button2{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #222222;
+    color: #F2F2F2;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 20px;
+}

@@ -1,0 +1,597 @@
+main .section1{
+    width: 100%;
+    height: 100vh;
+    background: url(./images/section1.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+main .section1 .container1{
+    text-align: center;
+    margin-top: 154px;
+}
+main .section1 .container1 h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+main .section1 .container1 p{
+    font-size: 20px;
+    font-weight: 500;
+}
+main .section1 .container1 h4{
+    font-size: 12px;
+    font-weight: 400;
+}
+main .section1 .container2{
+    position: absolute;
+    bottom: 66px;
+    text-align: center;
+}
+main .section1 .container2 p{
+    font-size: 12px;
+}
+main .section1 .container2 .box{
+    display: flex;
+    margin-bottom: 32px;
+}
+main .section1 .container2 .box .button1{
+    width: 264px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-right: 12px;
+}
+main .section1 .container2 .box .button2{
+    width: 264px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(34, 34, 34, 0.65);
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 12px;
+}
+
+
+main .section2{
+    width: 100%;
+    height: 100vh;
+    background: url(./images/section2.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+main .section2 .container1{
+    text-align: center;
+    margin-top: 154px;
+}
+main .section2 .container1 h1{
+    font-size: 25px;
+    font-weight: 400;
+}
+main .section2 .container1 p{
+    font-size: 40px;
+    font-weight: 500;
+}
+main .section2 .container1 h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+main .section2 .container2{
+    position: absolute;
+    bottom: 66px;
+    text-align: center;
+}
+main .section2 .container2 p{
+    font-size: 12px;
+}
+main .section2 .container2 p a{
+    text-decoration: underline;
+}
+main .section2 .container2 .box{
+    display: flex;
+    margin-bottom: 32px;
+}
+main .section2 .container2 .box .button1{
+    width: 264px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-right: 12px;
+}
+main .section2 .container2 .box .button2{
+    width: 264px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(34, 34, 34, 0.65);
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 12px;
+}
+
+
+
+main .section3{
+    width: 100%;
+    height: 100vh;
+    background: url(./images/section3.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+main .section3 .container1{
+    text-align: center;
+    margin-top: 154px;
+}
+main .section3 .container1 h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+main .section3 .container1 p{
+    font-size: 20px;
+    font-weight: 500;
+}
+main .section3 .container1 h4{
+    font-size: 12px;
+    font-weight: 400;
+}
+main .section3 .container2{
+    position: absolute;
+    bottom: 66px;
+    text-align: center;
+}
+main .section3 .container2 p{
+    font-size: 12px;
+    color: #fff;
+}
+main .section3 .container2 p a{
+    text-decoration: underline;
+}
+main .section3 .container2 .box{
+    display: flex;
+    margin-bottom: 32px;
+}
+main .section3 .container2 .box .button1{
+    width: 264px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-right: 12px;
+}
+main .section3 .container2 .box .button2{
+    width: 264px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(34, 34, 34, 0.65);
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 12px;
+}
+
+
+main .section4{
+    width: 100%;
+    height: 100vh;
+    background: url(./images/section4.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+main .section4 .container1{
+    text-align: center;
+    margin-top: 154px;
+}
+main .section4 .container1 h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+main .section4 .container1 p{
+    font-size: 20px;
+    font-weight: 500;
+}
+main .section4 .container1 h4{
+    font-size: 12px;
+    font-weight: 400;
+}
+main .section4 .container2{
+    position: absolute;
+    bottom: 66px;
+    text-align: center;
+}
+main .section4 .container2 p{
+    font-size: 12px;
+    color: #fff;
+}
+main .section4 .container2 p a{
+    text-decoration: underline;
+}
+main .section4 .container2 .box{
+    display: flex;
+    margin-bottom: 32px;
+}
+main .section4 .container2 .box .button1{
+    width: 264px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-right: 12px;
+}
+main .section4 .container2 .box .button2{
+    width: 264px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(34, 34, 34, 0.65);
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 12px;
+}
+
+
+
+main .section5{
+    width: 100%;
+    height: 100vh;
+    background: url(./images/section5.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+main .section5 .container1{
+    text-align: center;
+    margin-top: 154px;
+}
+main .section5 .container1 h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+main .section5 .container1 p{
+    font-size: 20px;
+    font-weight: 500;
+}
+main .section5 .container1 h4{
+    font-size: 12px;
+    font-weight: 400;
+}
+main .section5 .container2{
+    position: absolute;
+    bottom: 66px;
+    text-align: center;
+}
+main .section5 .container2 .box{
+    display: flex;
+    margin-bottom: 32px;
+}
+main .section5 .container2 .box .button1{
+    width: 264px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-right: 12px;
+}
+main .section5 .container2 .box .button2{
+    width: 264px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(34, 34, 34, 0.65);
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 12px;
+}
+
+
+
+main .section6{
+    width: 100%;
+    height: 100vh;
+    background: url(./images/section6.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+}
+main .section6 .container1{
+    text-align: center;
+    margin-top: 154px;
+}
+main .section6 .container1 h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+main .section6 .container1 h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+main .section6 .container1 h4 a{
+    text-decoration: underline;
+}
+main .section6 .container2{
+    position: absolute;
+    bottom: 66px;
+    text-align: center;
+}
+main .section6 .container2 p{
+    font-size: 12px;
+}
+main .section6 .container2 .box{
+    display: flex;
+    margin-bottom: 32px;
+}
+main .section6 .container2 .box .button1{
+    width: 264px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-right: 12px;
+    color: #000;
+}
+main .section6 .container2 .box .button2{
+    width: 264px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(34, 34, 34, 0.65);
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 12px;
+}
+
+
+main .section7{
+    width: 100%;
+    height: 100vh;
+    background: url(./images/section7.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+main .section7 .container1{
+    text-align: center;
+    margin-top: 154px;
+}
+main .section7 .container1 h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+main .section7 .container1 p{
+    font-size: 20px;
+    font-weight: 500;
+}
+main .section7 .container1 h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+main .section7 .container2{
+    position: absolute;
+    bottom: 66px;
+    text-align: center;
+}
+main .section7 .container2 p{
+    font-size: 12px;
+}
+main .section7 .container2 .box{
+    display: flex;
+    margin-bottom: 32px;
+}
+main .section7 .container2 .box .button1{
+    width: 264px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-right: 12px;
+}
+main .section7 .container2 .box .button2{
+    width: 264px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(34, 34, 34, 0.65);
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 12px;
+}
+
+
+
+main .section8{
+    width: 100%;
+    height: 100vh;
+    background: url(./images/section8.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+main .section8 .container1{
+    text-align: center;
+    margin-top: 154px;
+}
+main .section8 .container1 h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+main .section8 .container1 p{
+    font-size: 20px;
+    font-weight: 500;
+}
+main .section8 .container1 h4{
+    font-size: 12px;
+    font-weight: 400;
+}
+main .section8 .container2{
+    position: absolute;
+    bottom: 66px;
+    text-align: center;
+}
+main .section8 .container2 p{
+    font-size: 12px;
+}
+main .section8 .container2 .box{
+    display: flex;
+    margin-bottom: 32px;
+}
+main .section8 .container2 .box .button1{
+    width: 264px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-right: 12px;
+}
+main .section8 .container2 .box .button2{
+    width: 264px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(34, 34, 34, 0.65);
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 12px;
+}
+
+
+
+main .section9{
+    width: 100%;
+    height: 100vh;
+    background: url(./images/section9.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+main .section9 .container1{
+    text-align: center;
+    margin-top: 154px;
+}
+main .section9 .container1 h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+main .section9 .container1 p{
+    font-size: 20px;
+    font-weight: 500;
+}
+main .section9 .container1 h4{
+    font-size: 12px;
+    font-weight: 400;
+}
+main .section9 .container2{
+    position: absolute;
+    bottom: 66px;
+    text-align: center;
+}
+main .section9 .container2 p{
+    font-size: 12px;
+}
+main .section9 .container2 .box{
+    display: flex;
+    margin-bottom: 32px;
+}
+main .section9 .container2 .box .button1{
+    width: 264px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255);
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-right: 12px;
+}
+main .section9 .container2 .box .button2{
+    width: 264px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(34, 34, 34, 0.65);
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 12px;
+}
